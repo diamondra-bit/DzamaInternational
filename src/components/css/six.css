@@ -1,0 +1,24 @@
+.contact{
+    background-image: url(../../images/Six/homecontact.jpg);
+    background-size: cover;
+    height: 13em;
+    margin: -2em auto 2em;
+}
+
+.contact h2{
+    font-family: "Moonshine";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 15px;
+    width: 9em;
+    padding-top: 1.2em;
+}
+
+.contact .lien{
+    margin-top: 1.5em;
+    color: antiquewhite;
+    letter-spacing: 0.3em;
+    margin-left: 6em;
+}

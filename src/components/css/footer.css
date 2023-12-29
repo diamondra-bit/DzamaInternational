@@ -1,0 +1,74 @@
+
+/*logo*/
+.footer{
+    width: 85%;
+    margin: 3em auto;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10em;
+}
+.imgfooter
+{
+height: 7em;
+margin-top: -1.5em;
+}
+
+.link ul{
+    display: flex;
+    padding: 0;
+}
+
+.link ul li{
+    margin: 4.5em 1.5em;
+    list-style: none;
+}
+.linktext{
+    text-decoration: none;
+    color: white;
+    font-family: "Moonshine";
+    letter-spacing: 4px;
+    font-size: 0.8em;
+}
+
+.icn{
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.lignefooter{
+    margin: 2em auto;
+    width: 18em;
+    background-color: #d2691e;
+    width: 15em;
+    height: 0.1em;
+    display: none;
+}
+
+.footertext{
+ 
+    color: #ffffffad;
+    font-family: "Scheherazade", serif;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-bottom: 2em;
+    margin: 0 auto;
+    width: 85%;
+}
+.iconeall{
+    width: 10em;
+    margin: 0 auto 2em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #d2691e;
+}
+.insta{
+    margin-right: 0;
+}
+

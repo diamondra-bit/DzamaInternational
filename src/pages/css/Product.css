@@ -1,0 +1,238 @@
+/*Section 1*/
+.Psection1{
+    display: flex;
+    justify-content: space-between;
+    margin: 4em auto;
+    padding: 20px;
+}
+.Psection1 h1,.Psection-title h1{
+    color: #ff7116;
+    font-size: 1rem;
+    font-family: "Moonshine";
+    line-height: 1;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.Psection1 h2,.Psection-title h2{
+    color: #fff;
+    font-family: "Scheherazade", serif;
+    font-size: 2.9rem;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.Psection2{
+    margin: 0 auto;
+   
+}
+
+.carte{
+    background-image: url(../../images/Products/BCK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+
+.carte2{
+    background-image: url(/home/stage/Projet/src/images/Products/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte3{
+    background-image: url(/home/stage/Projet/src/images/Products/back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte3 .card1text{
+    color: black;
+}
+.carte4{
+    background-image: url(/home/stage/Projet/src/images/Products/b4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte5{
+    background-image: url(/home/stage/Projet/src/images/Products/back5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte6{
+    background-image: url(/home/stage/Projet/src/images/Products/back6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte7{
+    background-image: url(/home/stage/Projet/src/images/Products/back7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte8{
+    background-image: url(/home/stage/Projet/src/images/Products/back8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte9{
+    background-image: url(/home/stage/Projet/src/images/Products/back9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte10{
+    background-image: url(/home/stage/Projet/src/images/Products/back10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte11{
+    background-image: url(/home/stage/Projet/src/images/Products/back11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte12{
+    background-image: url(/home/stage/Projet/src/images/Products/back12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte13{
+    background-image: url(/home/stage/Projet/src/images/Products/back13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.carte14{
+    background-image: url(/home/stage/Projet/src/images/Products/back14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1em;
+}
+
+.gamme{
+    text-transform: uppercase;
+    color:#ff7116 ;
+    background-color: #fff;
+   width: 20em;
+   padding: 8px;
+
+}
+.ul-gamme li{
+    list-style: none;
+    background-color: #fff;
+    width: 20em;
+    margin-left: -2em;
+    padding: 20px;
+    border-top: 1px solid #bdbcbc94;
+}
+.ul-gamme li:hover{
+    background-color: #ff7116;
+    color: #fff;
+}
+.ul-gamme-a{
+   text-decoration: none;
+    color: #6e6e6e;
+    font-size: 0.9em;
+    letter-spacing: 0.2em;
+}
+
+.titre-gamme{
+   
+    margin-top: 1em;
+    color: #ffffff79;
+    font-size: 1.2em;
+    margin-left: -1.5em;
+}
+
+.lien-produit{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-top: -1em;
+}
+.div-lien-produit{
+    display: flex;
+    padding-top: 3em;
+    margin-right: -12em;
+}
+.Psection-title{
+     margin-top: 4em ;
+     margin-bottom: 4em;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+@media screen and (max-width:970px)
+{
+.Psection1,.Psection-title{
+    display: block;
+}
+
+.gamme,.div-lien-produit{
+    margin-top: 4em;
+}
+
+}
+@media screen and (max-width:430px)
+{
+    .div-lien-produit{
+        margin: 0 ;
+        margin-left: -2em;
+        display: block;
+        width: 140%;
+    }
+.ligne2{
+display: none;
+}
+
+}
+
+@media screen and (max-width:390px)
+{
+    .card1text{
+        width: 115%;
+         padding: 1em 1.9em;
+         margin-left: -1em;
+    }
+}
+
+@media screen and (max-width:375px)
+{
+
+   .gamme{width: 100%;}
+   .ul-gamme li{
+    width:110%;
+   }
+}
+@media screen and (max-width:370px)
+{
+    .ul-gamme li{
+        width: 112%;
+    }
+}
+
+@media screen and (max-width:320px)
+{
+    .ul-gamme li{
+        width: 114%;
+    }
+}
+@media screen and (max-width:300px)
+{
+   .Psection1 h1,.Psection1 h2{
+    margin-left: -0.4em;
+   }
+}

@@ -1,0 +1,73 @@
+
+.span-date{
+    color: #ffffffaf;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 20px;
+    margin-left:-2.2em ;
+}
+.main-prix{
+    display: flex;
+}
+.main-prix-2{
+    margin-bottom: 0em;
+    margin-top: 1em;
+}
+.div-lien-prix{
+    margin-top: 2.5em;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+}
+.ligne-vidzara{
+    margin-left: -7em;
+}
+.cardPrix{
+background-color:  #10101079;
+width: 100%;
+margin-bottom: 0em;
+margin-top: 0em;
+}
+
+.cardPrix ul li{
+   color: #ffffff94;
+   text-align: left;
+   margin: 1em 0 0 5em;
+   font-size: 0.9em;
+}
+
+.title-card-prix{
+    color:#ff7116;
+    font-family: "Scheherazade", serif;
+    font-size: 2.5rem;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-align: left;
+    padding-left: 1.5em;
+    padding-bottom: 0em;
+    padding-top: 1em;
+}
+.text-card-prix{
+   text-align: left;
+   font-family: "Open Sans", sans-serif;
+   letter-spacing: 2px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 2;
+   padding-left: 2.5em;
+   padding-bottom: 0.5em;
+   color: #b3b3b3;
+   font-size: .9rem;
+   line-height: 2em;
+   width: 85%;
+}
+
+.ligne-prix{
+    width: 4.5em;
+    margin-left: 4.4em;
+    height: 0.05em;
+    background-color: #ff7116;
+    margin-top: 1em;
+}
+
+

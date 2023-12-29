@@ -1,0 +1,154 @@
+
+.link{
+text-decoration: none;
+}
+.c1{
+    height: 40.9em;
+}
+
+.c{
+    margin: 0 auto;
+    height: 38em;
+}
+.text40{
+    width: 90%;
+    height: 30em;
+    margin-top: 10%;
+}
+.text-login{
+    color: #ff7116;
+    font-size: 2rem;
+    font-family: "Moonshine";
+    line-height: 1.5;
+    letter-spacing: 8px;
+    margin-left: 5%;
+    margin-top: -1em;
+}
+
+.form-login{
+    width: 28em;
+    margin: 3em auto;
+}
+
+.form-login input,.form-login select{
+    background-color: #ff7116;
+    color: #1a1a1a;
+    border: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.form-login label{
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+.form-login option{
+    background-color: #1a1a1a;
+    color: white;
+}
+.majeur{
+    margin: 0.5em auto;
+}
+
+.btn-login{
+    margin: 3em auto;
+    border: none;
+    background-color: #1a1a1a;
+    color: #ff7116;
+    text-transform: uppercase;
+    padding: 8px 25px;
+    float: right;
+}
+
+.div-block{
+    display: block;
+}
+.error{
+    color: rgb(255, 28, 28);
+    font-weight: 300;
+    margin-bottom: 0.5em;
+    width: 80%;
+}
+@media screen and (max-width:1000px)
+{
+.form-login input,.form-login select{
+    width: 60%;
+}
+.text-login{
+    font-size: 1.5rem;
+    width: 120%;
+    margin-left: -0.7em;
+    text-align: center;
+}
+.error{
+    width: 60%;
+}
+}
+
+@media screen and (max-width:995px)
+{
+    .btn-login{
+        float: left;
+    }
+}
+
+@media screen and (max-width:770px)
+{
+    .text40{
+        width: 110%;;
+        margin-left: -2em;
+    }
+}
+
+@media screen and (max-width:700px)
+{
+    .text-login{
+        margin-top: 2em;
+    }
+}
+@media screen and (max-width:630px)
+{
+    .form-login{
+        margin-left: 8%;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+.text40{
+    width: 125%;
+    margin-left: -2em;
+}
+}
+@media screen and (max-width:500px)
+{
+    .text40{
+        height: 32em;
+    }
+    .c1{
+        margin-top: -2em;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .form-login input,.form-login select{
+        width: 50%;
+    }
+    .error{
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width:280px)
+{
+.form-login input,.form-login select{
+    width: 30%;
+}
+.text40{
+    width: 150%;
+}
+}

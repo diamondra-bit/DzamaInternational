@@ -1,0 +1,112 @@
+.card1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+.card1logo1{
+    margin: 3em 0 1em;
+    position: relative;
+    left: -12em;
+}
+.btlimg{
+    margin-bottom: -2.7em;
+}
+.card1text{
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    text-align: left;
+   padding: 1em 3.9em;
+}
+.card1btn{
+     font-family: "Moonshine";
+     background-color: #080808;
+     color: #fff;
+     letter-spacing: 4px;
+     font-size: 0.8rem;
+     text-transform: uppercase;
+     text-decoration: none;
+     height: 3.5em;
+     padding: 1em 1.2em ;
+     position: relative;
+    left: -18em;
+    }
+
+ @media  screen and (max-width:1200px) 
+{
+   
+    .card1logo1{
+        position: relative;
+        left: -7em;
+    }
+    .card1btn{
+        position: relative;
+        left: -7em;
+    }
+    .dzama-detail{
+   margin-left: -18em;
+   margin-top: 12em;
+   padding-bottom: 3em;
+    }
+    .dzama-image1{
+        margin-left: 0em; 
+    }
+    .dzamarhum{
+        margin-left: 20em;
+    }
+}
+
+@media  screen and (max-width:1024px) 
+{
+    .btlimg{
+        width: 15em;   
+    }
+    .card1logo1{
+        position: relative;
+        left: -2em;
+    }
+    .card1btn{
+        position: relative;
+        left: -2em;
+    } 
+}
+
+
+@media  screen and (max-width:989px) 
+{
+    .dzama-detail{
+        margin: 0;
+    }
+    .dzama-image1{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:854px) 
+{
+    .btlimg{
+       margin-bottom: 0em;   
+    }
+    .card1{
+        display: block;
+    }
+    .card1logo1{
+        position: relative;
+        left: 0em;
+    }
+    .card1btn{
+        position: relative;
+        left: 0em;
+    }
+    
+}
+
+@media  screen and (max-width:550px) 
+{
+
+ 
+    .dzamarhum{
+        width:0%;
+    }
+
+}

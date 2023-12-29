@@ -1,0 +1,1056 @@
+/*MAIN*/
+
+.img{
+    margin-left: -1.5em;
+}
+.div-menu{
+    margin-right: -5em;
+}
+.container{
+overflow-x: hidden;
+}
+.main{
+    background-image: url(../../images/main.png);
+    margin: 3.5em auto 0;
+    height: 30em;
+    background-repeat: no-repeat;
+}
+
+.mada{
+   margin-top: -8em;
+   margin-left: -5em;
+   width: 25em;
+  overflow-x: visible;
+
+  animation: 2s s2 ;
+  
+}
+@keyframes s2{
+   from{
+    margin-left: -100%;
+   }
+   to{
+margin-left: -13%;
+   }
+}
+
+.textmain{
+    display: flex;
+}
+
+.texttitle{
+    margin: 90px 20px 20px -100px;
+}
+.texttitle h2{
+    margin-top:0.4em;
+}
+
+.texttitle h1,.about h1,.second h1,.fourth h1,.five h1,.section5 h1{
+    color: #ff7116;
+    font-size: 1rem;
+    font-family: "Moonshine";
+    line-height: 1;
+    letter-spacing: 8px;
+}
+
+.texttitle h2,.second h2{
+    color: #fff;
+    font-family: "Scheherazade", serif;
+    font-size: 2.9rem;
+    line-height: 1;
+    letter-spacing: 4px;
+}
+
+.about{
+    position: relative;
+    z-index: 15;
+    margin-left: 6em;
+    top: -18em;
+    min-height: 180px;
+    max-width: 400px;
+    background-image: url("../../images/backgroundABout.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    animation-duration: 2s;
+    animation-name: s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+ @keyframes s{
+    0% {
+        left: -100%;
+        opacity: 0; 
+    }
+    100% {
+        left: 7%; 
+        opacity: 1;
+    }
+}
+
+.about p{
+    color: #c3c2c2;    
+    font-size: 0.8rem;;
+    letter-spacing: 3px;
+    font-weight: 100;
+    line-height: 2;
+}
+.about h1{
+    line-height: 1.5;
+}
+.img1{
+   position: relative;
+   width: 23em;
+  z-index: 2;
+}
+
+.img2{
+    margin-top: -1.5em;
+    margin-left :-150px;
+    width: 16em; 
+}
+
+li{
+    padding: 0px;
+}
+
+.imgDzama{
+    overflow-x: visible;
+  position: relative;
+  z-index: 10;
+    width: 650px;
+    margin: -750px 0px 100px 600px;
+}
+
+
+/*Responsive*/
+@media  screen and (max-width:1300px) {
+
+    /*Prix*/
+    .thirdtext{
+        padding-left: 10%;
+      }
+      .div-lien{
+        display: none;
+      }
+ /*Valeur1*/
+    .flower2{
+       display: none;
+    }
+    .second{
+        height: 36em;
+    }
+    .secondtext{
+        margin: 0 0 0 1em;
+    }
+    
+    /*Prix*/
+    .resph1{
+        margin-left: 5em;
+    }
+    .lien{
+        margin-top: 1em;
+        margin-left: 25em;
+    }
+    .third{
+    height: auto;
+    margin: -1em auto;
+    display: block;
+    }
+    .thirdtext{
+        width: 85%;
+        margin: 1em 8em;
+    }
+    .thirdtext h1{
+        margin: 2em 4em 0.8em;
+    }
+   
+    /*Valeur 2 et 4*/
+    .fourth{
+        margin-top: 3em;
+    }
+    .fourth h1{
+        margin-left: -4em;
+    }
+
+    /*Nos Produits*/
+    .btl1{
+        margin-left: -7em;
+    }
+    .card2btn{
+    left: -10em;
+    }
+    .card3btn{
+        left: -8em;
+    }
+    .safir{
+        margin-top: -10em;
+        margin-left: 26em;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+      /*Section qui sommes-nous*/
+       .imgDzama{
+        margin-left: 45%;
+       }
+
+      /*Valeur1*/
+      .flower2{
+        display: none;
+      }  
+      
+      /*Prix*/
+      .third{
+        padding-top: 6em;
+      }
+}
+
+    @media  screen and (max-width:1050px)
+    {
+         /*Section qui sommes-nous*/
+       .about{
+        margin-left: 5%;
+       }
+       .texttitle{
+        margin-left: -11em;
+       }
+
+       /*Prix*/
+       .thirdtext{
+        padding-left: 5%;
+       }
+       .resph1 h1{
+        width: 25em;
+        text-align: center;
+       }
+       .resph1 p{
+        width: 30em;
+        margin-left: 7em;
+       }
+       .h12{
+        text-align: center;
+       }
+
+       /*Nos Produits*/
+      .fv1{
+        width: 26em;
+      }
+      .fivecard20{
+        width: 30em;
+      }
+      .fivecard21{
+        width: 33em;
+      }
+      .btl2 {
+        margin-right: -5em;
+        width: 10em;
+    }
+    .histoire {
+        width: 32em;
+        margin: -2.5em 27em;
+    }
+    .footer{
+        display: block;
+    }
+    .link ul{
+        display: block;
+        margin: 7em auto;
+        background-color:#1a1a1a;
+        width: 100%;
+    } 
+
+    .link ul li{
+        margin:0em 0em 2em;
+        list-style: none;
+    }
+.logofooter{
+   margin :8em auto -3em;
+   width: 7em;
+}
+}
+
+@media  screen and (max-width:1000px){
+    /*Valeur1*/
+  .Img5{
+    width: 30em;
+  }
+  .Img6{
+    width: 25em;
+  }
+}
+
+@media  screen and (max-width:991px){
+/*Valeur1*/
+.second .p{
+   margin-top: 4em;
+    width: 250%;
+}
+.Img5{
+    width: 26em;
+    height: 320px;
+    margin-top: 4em;
+    margin-left: -1em;
+}
+.Img6{
+    margin-top: 2em;
+}
+/*Prix*/
+.thirdtext{
+display: block;
+margin-left: -3%;
+padding-bottom: 13em;
+}
+.third{
+    padding: 0;
+}
+.resph1{
+    margin-left: 5em;
+}
+.h12{
+    padding-left: 7em;
+}
+.thirdtext h2{
+    margin-left: 1em;
+}
+.five .lien{
+    display: none;
+}
+
+/*Valeur2 et 3*/
+.fourthcard{
+    height: 120%;
+}
+
+/*Nos Produits*/
+.five2{
+    display :block;
+}
+.fv1 {
+    margin: 0 auto;
+    width: 30em;
+}
+
+.fivecard2{
+    margin-top: 2em;
+    margin-left: 5.5em;
+}
+.nosproduits{
+    margin-top: 4.5em;
+}
+.div-lien .lien{
+    display: none;
+}
+/*Pierre précieuse*/
+.sect5card0{
+    width: 135%;
+}
+.sect5card0 p{
+    width: 85%;
+}
+.histoire{
+    margin: 0em;
+    margin-top: 7em;
+   
+    width: 100%;
+ }
+ .text{
+    margin-top: -18em;
+ } 
+ /*Contact*/
+ .contact{
+    margin-top: 10em;
+    width: 95%;
+ }
+}
+
+@media  screen and (max-width:950px){
+
+      /*Section qui sommes-nous*/
+       .about{
+        margin-left: 5%;
+       }
+       .texttitle{
+        position: relative;
+        z-index: 6;
+       }
+       .texttitle h1{
+        margin-left: -3%;
+       }
+
+     /*Valeur1*/
+     .second {
+        height: 40em;
+     }
+
+}
+
+@media  screen and (max-width:898px) {
+    /*Valeur 2 et 4*/
+    .fourth{
+        display: block;
+        margin:3em auto
+    }
+    .fourthcard {
+        width: 98%;
+        height: auto;
+    }
+    .f1 h1{
+        padding-top: 2em;
+    }
+    .f2 h1{
+        padding-top: 2em;
+    }
+    .lien {
+        margin-top: 1em;
+        margin-left: 20em;
+    }   
+    .five{
+        margin-top: 5em;
+    }    
+}
+
+@media screen and (max-width:780px) {
+ /*Pierre précieuse*/
+ .histoire{
+    margin-top: 1em;
+}
+    /*Section qui sommes-nous*/
+        .img1{
+            display: none;
+        }
+        .texttitle{
+            margin-left: -13em;
+        }
+        .second h2,.second h1{
+            position: relative;
+            z-index: 5;
+        }
+        .second h1{
+            margin-top: 1em;
+        }
+        .second .p{
+           width: 170%;
+        }
+ 
+    .five .lien {
+        text-transform: uppercase;
+        margin-left: 0em;
+    }
+
+    /*Contact*/
+    .contact{
+        margin-top: 5em;
+    }
+
+}
+
+@media screen and (max-width:767px)
+{
+/*Valeur 1*/
+.Img5{
+    margin-left: -25em;
+}
+.Img6{
+    margin-left: -17.5em;
+    width: 19em;
+}
+.second .p{
+    width: 100%;
+}
+
+/*Prix*/
+.resph1{
+    margin-left: -1em;
+
+}
+.h12{
+    width: 25em;
+    padding-left: 0em;
+}
+.fivecard2{
+    margin-left: 0em;
+}
+
+/*Nos Produits*/
+.five{
+    margin-top: 12em;
+}
+
+/*Contact*/
+.contact{
+    
+    margin-left: -0.5em;
+}
+}
+
+@media screen and (max-width:748px)
+{
+.Img5{
+    height: 280px;
+    width: 20em;
+    margin-left: -7.5em;
+}
+.Img6{
+    width: 15em;
+    height: 180px;
+    margin-left: -7.5em;
+    margin-top: 5.5em;
+}
+.second .p{
+    width: 150%;
+}
+}
+
+@media screen and (max-width:600px)
+{
+    .fourth h2{
+        font-size: 2em;
+    }
+        .second {
+            height: 45em;
+        }
+
+         .text{
+            margin-top: -15em;
+            width: 90%;
+         }
+         .ligne{
+            width: 0em;
+            height: 0em;
+         }
+         .sect5card0 {
+            width: 150%;
+            height: 80%;
+        }
+        .contact{
+            width: 110%;
+        }
+ 
+}
+@media screen and (max-width:570px)
+{
+    .thirdtext{
+        padding-left: 8%;
+    }
+}
+
+@media screen and (max-width:560px)
+{
+    .five{
+        margin-top: 7em;
+    }
+}
+@media screen and (max-width:549px)
+{
+    .five{
+        margin-top: 10em;
+    }
+}
+@media screen and (max-width:540px)
+{
+        .second {
+            height: 48em;
+        }
+        /*Prix*/
+        .third{
+            margin-top: -5em;
+        }
+        .five .lien {
+            text-transform: uppercase;
+            margin-left: -5em;
+        }
+}
+@media screen and (max-width:530px)
+{
+        .thirdtext{
+            padding-left: 5%;
+        }
+}
+@media screen and (max-width:520px)
+{
+      /*Section qui sommes-nous*/
+      .img2{
+        display: none;
+      }
+      .five2{
+        width: 80%;
+        margin-left: 0.3em;
+      }
+      .section4{
+        width: 105%;
+      }
+
+}
+
+@media screen and (max-width:502px)
+{
+    .thirdtext{
+        padding-left: 2%;
+    }
+    .nosproduits {
+        margin-left: -8.5em;
+    }
+    
+}
+@media screen and (max-width:490px)
+{
+      /*Nos Produits*/
+      .five2{
+        width: 80%;
+        margin-left: -0.5em;
+      }
+      .thirdtext h1{
+        margin: 0;
+      }
+
+      .resph1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: 0;
+      }
+      .resph1 p{
+        margin-inline: 0;
+      }
+      .resph1 h1{
+        width: 24em;
+        }
+        .thirdtext{
+            margin: auto;
+            margin-top: 2em;
+        }
+        .thirdtext h2 {
+             margin-left: 0em;
+        }
+        .t2{
+            margin-top: -1.5em;
+        }
+}
+@media screen and (max-width:480px)
+{
+    /*Navbar*/
+     .div-menu{
+        display: block;
+        margin-right: -4%;
+     }.menu{
+        margin-left: 4em;
+     }
+     .img{
+        margin-left:10%;
+    }
+
+    /*Section qui sommes-nous*/
+    .texttitle{
+        font-weight: bold;
+        margin-top: 4em;
+        margin-left: -50%;
+    }
+    .texttitle h1{
+        font-size: 0.8em;
+        width: 25em;
+    }
+    .texttitle h2{
+        font-size:1.5em;
+        width: 25em;
+        margin-top: 0.8em;
+        margin-left: -6.5em;
+    }
+    .about{
+        margin-top: -2em;
+    }
+    /*Valeur1*/
+    .second .p{
+        width: 120%;
+    }
+    .Img5{
+        margin-left: -15em;
+    }
+    .Img6{
+        margin-left: -13.5em;
+    }
+   /*Prix*/
+    .third{
+        padding-top: -6em;
+    }
+  
+   .resph1 p{
+    width: 24em;
+   }
+   .thirdtext h2{
+    margin-top: 1em;
+   }
+  .h12{
+    width: 105%;
+  }
+/*Five*/
+   .five{
+    margin-top: 13em;
+   }
+/*Pierre précieuse*/
+  .text{
+    margin-top: -12em;
+  }
+}
+@media screen and (max-width:440px)
+{
+    .sect5card0{
+        width: 160%;
+    }
+    .sect5card0 p{
+        width: 80%;
+    }
+    .histoire{
+        margin-top: 2em;
+    }
+}
+@media screen and (max-width:425px)
+{
+    .five{
+        margin-top: 17em;
+       }
+}
+@media screen and (max-width:420px)
+{
+    /*Navbar*/
+    .div-menu{
+       margin-left: 50%;
+       margin-top: -6.5em;
+    }
+
+     /*Qui sommes nous*/
+    .texttitle{
+        margin-left: -60%;
+    }.about{
+        width: 85%;
+    }
+
+    /*Nos Produits*/
+    .fivecard20 p,.fivecard21 p{
+        width: 50%;
+    }
+   .fivecard21{
+    width: 35em;
+   }
+    .btl2{
+        margin-left: -8em;
+        margin-top: -17em;
+    }
+    .card2btn{
+        margin-left: -6em;
+    }
+    .btl3{
+        margin-top: -25em;
+        margin-left: -15em;
+    }
+    .fivecard21 {
+        padding-bottom: 10em;
+    }
+   
+}
+@media screen and (max-width:415px){
+    /*Navbar*/
+    .navbar-link li a{
+   font-size: 1em;
+     }
+ }
+
+@media screen and (max-width:400px){
+   /*Qui sommes nous*/
+   .texttitle{
+    margin-left: -70%;
+    }
+    
+    .thirdtext h2{
+        margin-inline: 0;
+    }
+    .resph1 h1 {
+        width: 20em;
+    }
+}
+@media screen and (max-width:390px){
+    .thirdtext{
+        padding-left: 3%;
+     }
+   
+ }
+@media screen and (max-width:384px){
+.five{
+    margin-top: 21em;
+}
+.text{
+    margin-top: -11em;
+    width: 85%;
+}
+}
+@media screen and (max-width:380px){
+    /*Qui sommes nous*/
+    .texttitle{
+     margin-left: -78%;
+     }
+
+    /*Valeur1*/
+    .Img5{
+        margin-top: -12em;
+        margin-left: -23em;
+    }
+    .Img6{
+        margin-left: -17em;
+        margin-top: 35em;
+    }
+    .second .p{
+        width: 90%;
+    }
+    /*Prix*/
+    
+    .h12{
+        margin-inline:0;
+    }
+    
+ }
+
+
+@media screen and (max-width:374px){
+.five{
+    margin-top: 24em;
+}
+}
+@media screen and (max-width:370px){
+    /*Qui sommes nous*/
+    .texttitle{
+     margin-left: -80%;
+     }
+     .contact h2{
+        margin-left: -0.5em;
+     }
+     .contact .lien{
+        margin-left: 4em;
+     }
+ }
+ 
+ @media screen and (max-width:360px){
+    /*Qui sommes nous*/
+    .texttitle{
+     margin-left: -85%;
+     }
+      /*Navbar*/
+    .navbar-link li {
+        width: 20em;      
+    }
+    .sect5card0 p {
+        margin-left: 16%;
+    }
+
+ }
+
+
+@media screen and (max-width:350px)
+{
+    /*Navbar*/
+    .div-menu{      
+       margin-left: 40%;
+    }
+     /*Qui sommes nous*/
+     .texttitle{
+        margin-left: -90%;
+    }
+    /*Nos Produits*/
+      .btl1{
+    margin-right: 6em;
+    }
+    /*Pierre précieuse*/
+    .histoire{
+        height: 20em;
+    }
+    .text{
+        margin-top: -15em;
+    }
+    /*Contact*/
+    .contact{
+        margin-top: 10em;
+    }
+    .contact h2{
+        margin-left: -0.8em;
+     }
+     .contact .lien{
+        margin-left: 3.5em;
+     }
+}
+
+@media screen and (max-width:340px){
+    /*Qui sommes nous*/
+    .texttitle{
+     margin-left: -95%;
+     }
+      /*Prix*/
+    .resph1 h1{
+        margin-left: -1em;
+    }
+
+    .third{
+        padding-bottom: 1em;
+    }
+    .thirdtext{
+        padding-left: 5.5%;
+    }
+ }
+
+ @media screen and (max-width:333px){
+.five{
+    margin-top: 28em;
+}
+.contact h2{
+    margin-left: -1em;
+ }
+ .contact .lien{
+    margin-left: 3em;
+ }
+ }
+ @media screen and (max-width:320px){
+    /*Qui sommes nous*/
+    .texttitle{
+     margin-left: -105%;
+     }
+     .nosproduits{
+        margin-left: -8.5em;
+     }
+ }
+ @media screen and (max-width:314px){
+.five{
+    margin-top: 32em;
+}
+.contact{
+
+}
+.contact h2{
+    margin-left: 0.6em;
+    font-size: 2em;
+ }
+ .contact .lien{
+    margin-left: 2.8em;
+ }
+ .thirdtext {
+     padding-left: 6.5%; 
+}
+.third{
+    padding-top: 3em;
+}
+ }
+
+ @media screen and (max-width:300px){
+    /*Qui sommes nous*/
+    .texttitle h1{
+     width: 20em;
+     line-height: 1.8em;
+     }
+     .texttitle h2{
+        margin-left: -8em;
+        margin-top: 0em;
+     }
+     .texttitle{
+        margin-left: -115%;
+    }
+    /*Prix*/
+    .third{
+        padding-top: 3.5em;
+    }
+    .resph1 h1{
+        width: 17.5em;
+    }
+    .nosproduits{
+        margin-left: -9em;
+     }
+
+    /*Contact*/
+    .contact{
+        
+    }
+ }
+
+
+@media screen and (max-width:290px)
+{
+    /*Navbar*/
+    .div-menu{
+       margin-left: 35%;
+    }
+    .img{
+        margin-left:1%;
+    }
+    /*Valeur1*/
+    .second .p{
+        width: 80%;
+    }
+    /*Prix*/
+    .third{
+        padding-top: 7em;
+    }
+     
+     /*Contact*/
+     .contact{
+        margin-top: 22em;
+    } 
+
+    .five{
+        margin-top: 40em;
+    }
+    .contact h2{
+        margin-left: 0.4em;
+        font-size: 2em;
+     }
+     .contact .lien{
+        margin-left: 2.5em;
+     }
+     .fourth h2{
+        font-size: 1.5rem;
+     }
+     .nosproduits{
+        margin-left: -9.5em;
+
+     }
+}
+
+@media screen and (max-width:268px)
+{
+    .five{
+        margin-top: 43em;
+    }
+     /*Contact*/
+     .contact{
+        
+    } 
+    .contact h2{
+        margin-left: 0em;
+        font-size: 2em;
+     }
+     .contact .lien{
+        margin-left: 1.8em;
+     }
+}
+
+@media screen and (max-width:250px)
+{
+    /*Navbar*/
+    .div-menu{
+       margin-left: 25%;
+    }
+    .five{
+        margin-top: 48em;
+    }
+    /*Contact*/
+    .contact{
+        
+    } 
+    .contact h2{
+        margin-left: 1em;
+        font-size: 1.5em;
+     }
+     .contact .lien{
+        margin-left: 1.4em;
+     }
+}
+
+

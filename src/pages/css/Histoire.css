@@ -1,0 +1,317 @@
+.Hsection{
+display: flex;
+width: 85%;
+margin:2em auto 4em;
+background-color:#1a1a1a;
+}
+
+.Hsect1 h1,.text4 h2{
+    color: #ff7116;
+    font-size: 1rem;
+    font-family: "Moonshine";
+    line-height: 1;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 2em;
+}
+.Hsect1 h2{
+    color: #fff;
+    font-family: "Scheherazade", serif;
+    font-size: 2.9rem;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.Hsect1{
+    width: 55%;
+}
+.text2{
+    background-image: url(../../images/Histoire/back1.jpg);
+    background-size: cover;
+    color: #fff;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    text-align: left;
+    width: 230%;
+    margin-top: 2em;
+    margin-left: -5em;
+    padding: 40px;
+}
+
+.Hsect21,.Hsect22{
+    background-image: url(../../images/Histoire/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   width:60%;
+    padding: 40px 20px;
+    margin-top: 2em;
+    float: right;
+}
+.Hsect23{
+    background-color: #0f0f0f;
+    width:60%;
+    padding: 20px;
+    margin-top: 2em;
+    float: right;
+}
+.Hsect22{
+     background-image: url(../../images/Histoire/back3.png);
+}
+.divlink{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.divlink h3{
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.divlinktext{
+    width: 60%;
+}
+.link{
+    color: #ff7116;
+}
+.icn1{
+    width: 4em;
+    height: 4em;
+    margin-right: 2em;
+    text-align: left;
+}
+.video{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.text3{
+    background-image: url(../../images/Histoire/back4.jpg);
+    width: 65%;
+    margin-left: -8em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    text-align: left;
+    margin-top: 6em;
+    padding: 30px  40px;
+}
+
+.text4{
+    background-image: url(../../images/Histoire/back5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-align: left;
+    margin: 4em auto 2em;
+    padding: 5em ;
+}
+
+.image1{
+    width: 35em;
+    height: 25em;
+    margin-left: -4em;
+}
+.text5{
+    width: 28%;
+    font-family: "Scheherazade", serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.7;
+    text-align: left;
+    margin: auto;
+}
+.text6{
+    background-image: url(../../images/Histoire/back6.jpg);
+    width: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-align: left;
+    margin: auto ;
+    padding: 5em ;
+}
+
+.text7{
+    background-image: url(../../images/Histoire/back7.jpg);
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-align: left;
+    margin-right: auto ;
+    padding:2em ;
+}
+.logoflex{
+    display: flex;
+}
+.logo{
+    width: 4em;
+    height: 4em;
+    margin: 4em 1em;
+}
+
+.lien3{
+    font-size: 11px;
+letter-spacing: 3px;
+padding-left: 75px;
+color: white;
+text-transform: uppercase;
+text-decoration: none;
+}
+.text4 h3{
+    font-style: italic;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1200px)
+{
+.Hsection{
+    display: block;
+}
+.Hsect20{
+    display: flex;
+}
+.Hsect23{
+    width: 96%;
+}
+.Hsect21,.Hsect22{
+width: 120%;
+margin-left: 2em;
+}
+
+.image1{
+    margin-top: 4em;
+    margin-left: -20em;
+}
+.text2{
+    margin: 2em auto 0em;
+    width: 190%;
+}
+.text3{
+   margin-top: -21em; 
+   margin-left: 20em;
+   position: relative;
+   z-index: 8;
+}
+.H1{
+    display: flex;
+}
+.text6{
+    width: 150%;
+    margin-right: -4em;
+}
+.text5{
+    width: 80%;
+}
+}
+
+@media screen and (max-width:1000px)
+{
+.text3{
+    width: 90%;
+    margin-left: 4.5em;
+}
+.H1{
+    display: block;
+}
+.text6{
+    margin-top: 4em;
+    margin-left: 0.2em;
+    width: 100%;
+}
+}
+
+@media screen and (max-width:976px)
+{
+.Hsect20{
+    display: block;
+}
+.Hsect21,.Hsect22,.Hsect23{
+    width: 100%;
+}
+.text7{
+    width: 100%;
+}
+.H2{
+    display: block;
+}
+.logoflex{
+    float: right;
+}
+.lien3{
+    float: right;
+}
+.texte{
+    margin-top: 18em;
+}
+}
+
+@media screen and (max-width:694px)
+{
+    .text4,.text6{
+        padding: 2em;
+    }
+.text3{
+    margin-top: -23em;
+    margin-left: -1em;
+    width: 120%;
+}
+}
+
+@media screen and (max-width:415px)
+{
+    .text2{
+        margin-left: 0.2em;
+        width: 180%;
+    } 
+
+@media screen and (max-width:380px)
+{
+    .logoflex{
+        width: 21em;
+    }
+}
+
+    .text2{
+        padding: 1em;
+    }.divlinktext{
+        width: 105%;
+    }
+
+}
+@media screen and (max-width:310px)
+{
+.text4 h2{
+    font-size: 0.8em;
+}
+}

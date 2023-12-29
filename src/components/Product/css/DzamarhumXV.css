@@ -1,0 +1,53 @@
+.dzama-image{
+    display: flex;
+    margin-top: 5em;
+}
+
+.dzama-image1 .image1{
+    width: 700px;
+    z-index: 1;
+}
+.dzama-history{
+   width: 100%;
+   margin-top: 5em;
+   margin-bottom: -1em;
+}
+
+.dzama-detail{
+    width: 50em;
+    background-color: #101010;
+    text-align: left;
+}
+.dzama-detail h2{
+    color: #ff7116;
+    font-family: "Scheherazade";
+    line-height: 1;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 2em ;
+    padding-bottom: 1em;
+}
+.dzama-texte-div{
+   width: 70%;
+   margin: 0 auto; 
+}
+.dzama-texte-div1{
+    margin: 4.5em auto; 
+ }
+ .dzama-texte-div2{
+    margin: 5.5em auto; 
+ }
+ 
+ 
+.dzama-paragraph{
+    padding: 1em;
+    color: #ffffff8a;
+    font-size: 0.85em;
+}
+.dzama-texte{
+    color: #ffffffe0;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 1em;
+}

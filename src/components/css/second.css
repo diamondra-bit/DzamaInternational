@@ -1,0 +1,62 @@
+/*SECOND*/
+.second{
+    background-color: #141414;
+
+    height: 35em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flower{
+    width: 8em;
+    height: 8em;
+}
+.flower2{
+    width: 11em;
+    height: 8em;
+   position: relative;
+   top: -3em;
+   left: 18em;
+    z-index: 6;
+}
+.secondText{
+    margin: 7em 0em 0em 3em;
+    text-align: left;
+    animation: s3 2s forwards;
+} 
+
+.secondText h1{
+    font-size: 0.7em;
+}
+.secondText h2{
+    color: #ffffffe5;
+}
+.secondText .p,.fourthp,.fivecard20 p,.fivecard21,.section5 p{
+    width: 90%;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Open Sans", sans-serif;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.Img5{
+    width: 37em;
+    height: 400px;
+    margin: 8em 0px;
+    filter: blur(2px);
+    opacity: 0.5;
+    position: relative;
+    z-index: 1;
+}
+
+.Img6{
+    width: 25em;
+    height: 16em;
+    position: relative;
+    top: -28em;
+    z-index: 2;
+}
+
